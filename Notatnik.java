@@ -253,17 +253,28 @@ public class Menu extends JFrame implements ActionListener {
         }else if(z ==mpDolocz){
             notatnik.append("\n" + wybranytext);
         } else if (z == colorBox) {
+            
             String color = colorBox.getSelectedItem().toString();
             if (color.equals("zielony")){
+                
                 notatnik.setForeground(Color.GREEN);
+                
             } else if (color.equals("czarny")) {
+                
                 notatnik.setForeground(Color.BLACK);
+                
             } else if (color.equals("czerwony")) {
+                
                 notatnik.setForeground(Color.RED);
+                
             } else if (color.equals("niebieski")) {
+                
                 notatnik.setForeground(Color.BLUE);
+                
             } else if (color.equals("żułty")) {
+                
                 notatnik.setForeground(Color.yellow);
+                
             }
         } else if (z == bWybierzkolor) {
             Color wybranyKolor = JColorChooser.showDialog(null , "Wybur koloru", Color.GREEN);
