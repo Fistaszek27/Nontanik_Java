@@ -30,7 +30,7 @@ public class Menu extends JFrame implements ActionListener {
 
 
         JFrame frame = new JFrame();
-        super("jakiś_wtam_program");
+        setTitle("Notatnik");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 800);
         setLayout(null);
