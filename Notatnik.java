@@ -289,12 +289,9 @@ public class Menu extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new Menu();
-            }
-        });
+
+      Menu menu = new Menu();
+        
     }
 
 
